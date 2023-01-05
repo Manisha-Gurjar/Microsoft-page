@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');    
+* {
+    padding: 0;
+box-sizing: border-box;
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+   
+    margin-left: 20px;
+}
+
+.navbar i{
+ 
+    margin-left: 10px;
+    
+} 
+.button{
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: black;
+  color: #fff;
+  font-size: 20px;
+ text-decoration: none;
+
+
+}
+.button i{
+    margin-left: 10px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+    width:86%;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: none;
+  
+}
+.card-body p{
+    font-size: 15px;
+
+}
+.card-body .btn {
+    font-size: 18px;
+    font-weight: 580;
+    margin-bottom: 5px;
+    color: rgb(47, 47, 203);
+}
+/* hero-sec-1 */
+.hero-sec-1 {
+    height: 400px;
+    /* width: 100%; */
+    background: url(./img7.jpg) no-repeat center center/cover;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+   margin-left: 89px;
+   margin-right: 83px;
+    margin-top: 20px;
+}
+.learn-btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 90px;
+}
+.learn-btn i{
+margin-left: 10px;
+}
+.button span, .button i {
+    border-bottom: 2px solid transparent;
+    transition: all .2s ease-in-out;
+}
+h2 {
+    font-size: 24px !important;
+    line-height: 36px !important;
+}
+.content h2{
+   margin-left: 90px;
+ padding-top: 130px;
+}
+.content p{
+    margin-left: 90px;
+    font-size: 16px;
+}
+/* .hero-section-2 */
+.hero-section-2{
+    display: flex;
+    justify-content: space-between;
+    height: 52vh;
+    width:86%;
+    margin-top: 20px;
+    margin-left: 96px;
+    border: none;
+  
+}
+.card-body p{
+    font-size: 14px;
+
+}
+.card-body .btn {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom:10px;
+    color: rgb(47, 47, 203);
+}
+.card-body i{
+    color: rgb(47, 47, 203);
+   font-size: 20px;
+}
+/* .hero-section-3 */
+.hero-section-3{
+    margin-top: 20px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+.carousel-caption h4{
+    color:black ;
+ padding-right: 520px; 
+    }
+  .button-1{
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    padding: 8px 18px;
+    background: black;
+    color: #fff;
+    font-size: 16px;
+   text-decoration: none;
+margin-right: 570px;
+   margin-bottom: 150px; 
+  
+  }
+  .button-1 i{
+      margin-left: 10px;
+  }
+/* follow */
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 50px 0 30px;
+    margin-left: 90px;
+    
+}
+.follow .follow-text{
+    font-weight: 400;
+    color: #747474;
+    margin-top: 15px;
+}
+.follow a i {
+    font-size: 32px;
+}
+.follow * {
+    margin-right: 10px;
+}
+/* container */
+.container{
+    height: 90vh;
+    width: 100%;
+    background: #f2f2f2;
+ 
+   
+ 
+}
+.cont-1{
+background: #f2f2f2;
+color: #626262;
+font-size: 12px;
+padding: 35px 25px;
+max-width: 1100px !important;
+margin: 0 auto;
+}
+.cont-1 .cont-2{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+.cont-1 li{
+    line-height: 2.8;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #626262;
+    margin-top: 20px;
+}
